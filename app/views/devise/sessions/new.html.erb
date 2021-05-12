@@ -13,9 +13,9 @@
 
         <div class="field">
           <%= f.label :password, "パスワード（6文字以上）" %><br />
-          <%= f.password_field :password, id:"user_password", autocomplete: "current-password" %>
+          <%= f.text_field :password, id:"user_password", autocomplete: "current-password" %>
         </div>
-
+        
         <div class="actions">
           <%= f.submit "ログイン", class: :form__btn %>
         </div>
